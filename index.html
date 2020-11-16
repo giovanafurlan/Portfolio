@@ -20,33 +20,30 @@
             <div class="line"></div>
         </div>
 
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="imagens/bg.jpg" alt="">
             </div>
             <div class="banner">
                 <h1>Desenvolvedora FullStack</h1>
                 <p>Giovana Furlan</p>
-                <button>Saiba Mais</button>
             </div>
         </header>
         <aside class="sideBar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
             <div class="social-media">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-github-alt"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/giovanafurlan"><i class="fab fa-github-alt"></i></a>
+                <a href=" www.linkedin.com/in/giovana-furlan"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </aside>
         
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -125,7 +122,8 @@
                     <textarea class="field" id="mensagem"></textarea>
                     <label for="mensagem" class="field-label">Mensagem</label>
                   </div>
-                  <button type="submit" class="btn btn-submit">Enviar</button>
+                  <!-- <button type="submit" class="btn btn-submit">Enviar</button> -->
+                  <input type="submit" class="btn  btn-submit" onclick="Enviar();" value="Enviar" />
                 </form>
               </div>
             </div>

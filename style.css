@@ -7,6 +7,8 @@ list-style: none;
 text-decoration: none;
 }
 
+html {scroll-behavior: smooth;}
+
 .abacaxi {
     width: 2rem;
     height: 2rem;
@@ -83,30 +85,10 @@ header {
     font-family: "Josefin Slab", serif;
     color: #fff;
     font-size: 3rem;
+    text-transform: uppercase;
     text-shadow: .2rem .2rem rgba(0,0,0,0.4);
     margin-bottom: 2rem;
     animation: moveBanner 1s 0.7s forwards;
-}
-
-.banner button {
-    font-family: "Muli", serif;
-    color: #fff;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    background: #642B73;
-    background: -webkit-linear-gradient(to left, #C6426E, #642B73);
-    background: linear-gradient(to left, #C6426E, #642B73);
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    animation: moveBanner 1s 0.9s forwards;
-}
-
-.banner button:hover {
-    opacity: 0.8;
-    color: #000;
 }
 
 @keyframes moveBanner{
@@ -358,4 +340,3 @@ header {
 .preenchido{
       pointer-events: none;
 }
-
